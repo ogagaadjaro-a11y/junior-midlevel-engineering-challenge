@@ -1,0 +1,24 @@
+{
+  "name": "junior-mid-backend-engineer-interview-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:mini-app": "vitest run challenges/mini-app-completion/tests",
+    "test:bug-hunt": "vitest run challenges/bug-hunt/tests",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
+    "typescript": "^5.5.3",
+    "vitest": "^1.6.0"
+  }
+}
