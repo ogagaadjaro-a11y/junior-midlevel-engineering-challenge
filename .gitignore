@@ -1,0 +1,71 @@
+# Interview-only answer keys
+answers/
+**/answers/
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+out/
+**/dist/
+**/build/
+**/out/
+
+# Test and coverage output
+coverage/
+**/coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# Vite, TypeScript, and tool caches
+.vite/
+**/.vite/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.cache/
+**/.cache/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Package manager transient files
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+*.tmp
